@@ -1,1 +1,4 @@
+bin/*.jar
+bin/chromedriver
 node_modules
+reports/*.xml

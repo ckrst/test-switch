@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/nightwatch tests/sprint.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,8 @@
   "author": "Vinícius Kirst",
   "license": "ISC",
   "dependencies": {
+    "mocha": "^3.0.1",
+    "nightwatch": "^0.9.6",
     "selenium-webdriver": "^2.53.2"
   }
 }
